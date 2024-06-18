@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "webAppName": {
+      "value": "myUniqueWebAppName123"
+    },
+    "appServicePlanName": {
+      "value": "myAppServicePlan123"
+    },
+    "location": {
+      "value": "westus"
+    },
+    "sku": {
+      "value": "F1"
+    }
+  }
+}
+
+
